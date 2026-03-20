@@ -1,0 +1,674 @@
+(kicad_sch 
+  (version 20250114) 
+  (generator "eeschema") 
+  (generator_version "9.0") 
+  (uuid "0ef88f61-c4e5-4c6a-8291-ccc9391c1d8a") 
+  (paper "A4") 
+  (lib_symbols 
+    (symbol "Connector_Generic:Conn_01x05" 
+      (pin_names 
+        (offset 1.016) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "J" 
+        (at 0 7.62 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "Conn_01x05" 
+        (at 0 -7.62 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "~" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "connector" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_fp_filters" "Connector*:*_1x??_*" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "Conn_01x05_1_1" 
+        (rectangle 
+          (start -1.27 6.35) 
+          (end 1.27 -6.35) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type background))) 
+        (rectangle 
+          (start -1.27 5.207) 
+          (end 0 4.953) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 2.667) 
+          (end 0 2.413) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 0.127) 
+          (end 0 -0.127) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 -2.413) 
+          (end 0 -2.667) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 -4.953) 
+          (end 0 -5.207) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (pin passive line 
+          (at -5.08 5.08 0) 
+          (length 3.81) 
+          (name "Pin_1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 2.54 0) 
+          (length 3.81) 
+          (name "Pin_2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 0 0) 
+          (length 3.81) 
+          (name "Pin_3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "3" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 -2.54 0) 
+          (length 3.81) 
+          (name "Pin_4" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "4" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 -5.08 0) 
+          (length 3.81) 
+          (name "Pin_5" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "5" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Device:LED" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 1.016) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "D" 
+        (at 0 2.54 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "LED" 
+        (at 0 -2.54 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "~" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "Light emitting diode" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "LED diode" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "LED_0_1" 
+        (polyline 
+          (pts 
+            (xy -3.048 -0.762) 
+            (xy -4.572 -2.286) 
+            (xy -3.81 -2.286) 
+            (xy -4.572 -2.286) 
+            (xy -4.572 -1.524)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.778 -0.762) 
+            (xy -3.302 -2.286) 
+            (xy -2.54 -2.286) 
+            (xy -3.302 -2.286) 
+            (xy -3.302 -1.524)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.27 0) 
+            (xy 1.27 0)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.27 -1.27) 
+            (xy -1.27 1.27)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 1.27 -1.27) 
+            (xy 1.27 1.27) 
+            (xy -1.27 0) 
+            (xy 1.27 -1.27)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "LED_1_1" 
+        (pin passive line 
+          (at -3.81 0 0) 
+          (length 2.54) 
+          (name "K" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 3.81 0 180) 
+          (length 2.54) 
+          (name "A" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Switch:SW_SPST" 
+      (pin_names 
+        (offset 0) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "SW" 
+        (at 0 3.175 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "SW_SPST" 
+        (at 0 -2.54 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "~" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "Single Pole Single Throw (SPST) switch" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "switch lever" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "SW_SPST_0_0" 
+        (circle 
+          (center -2.032 0) 
+          (radius 0.508) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.524 0.254) 
+            (xy 1.524 1.778)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (circle 
+          (center 2.032 0) 
+          (radius 0.508) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "SW_SPST_1_1" 
+        (pin passive line 
+          (at -5.08 0 0) 
+          (length 2.54) 
+          (name "A" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 5.08 0 180) 
+          (length 2.54) 
+          (name "B" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no))) 
+  (junction 
+    (at 186.69 77.47) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "e7664802-7b6d-4d74-a15b-35efcff99b15")) 
+  (wire 
+    (pts 
+      (xy 130.81 80.01000000000001) 
+      (xy 130.81 69.84999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "064fcfb8-e094-4d3a-b58e-d1569f07d0ab")) 
+  (wire 
+    (pts 
+      (xy 179.07 74.93000000000001) 
+      (xy 213.36 74.93000000000001)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "08934eb1-52e7-4c26-9150-40e9f9c5d25f")) 
+  (wire 
+    (pts 
+      (xy 130.81 80.01000000000001) 
+      (xy 213.36 80.01000000000001)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "1deede4b-5981-437a-a6a7-6d885bc973aa")) 
+  (wire 
+    (pts 
+      (xy 140.97 77.47) 
+      (xy 186.69 77.47)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "4bc47a46-2f5b-46ef-afee-17923df74b87")) 
+  (wire 
+    (pts 
+      (xy 168.91 72.39) 
+      (xy 168.91 67.31)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "868d5fdc-4337-4bcb-a4e0-bb40365ede08")) 
+  (wire 
+    (pts 
+      (xy 179.07 67.31) 
+      (xy 179.07 74.93000000000001)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "9c7f80d5-902a-4485-8f89-0aef11dc00fb")) 
+  (wire 
+    (pts 
+      (xy 213.36 104.14) 
+      (xy 213.36 82.55)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "a41093b6-a0ce-4420-9be7-529aedd0933a")) 
+  (wire 
+    (pts 
+      (xy 194.31 104.14) 
+      (xy 213.36 104.14)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "d0a5e7bc-d026-4a0f-b8d4-097eedbeeb2c")) 
+  (wire 
+    (pts 
+      (xy 140.97 69.84999999999999) 
+      (xy 140.97 77.47)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "d58e9381-3657-45d3-9a4f-22adbdf3d589")) 
+  (wire 
+    (pts 
+      (xy 186.69 77.47) 
+      (xy 213.36 77.47)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "d5e19aea-5c89-4b69-a2b9-524b35552154")) 
+  (wire 
+    (pts 
+      (xy 186.69 77.47) 
+      (xy 186.69 104.14)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "e6271b90-d67d-40a8-8be4-9bcea259fbe4")) 
+  (wire 
+    (pts 
+      (xy 213.36 72.39) 
+      (xy 168.91 72.39)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "ff1b556c-1bd2-4d16-b646-be19240e9148")) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 190.5 104.14 0) 
+    (mirror y) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "05836ffd-b883-42c1-8dbd-a029cf1a875c") 
+    (property "Reference" "POWER_LED1" 
+      (at 192.0875 97.79000000000001 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "LED" 
+      (at 192.0875 100.33 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 190.5 104.14 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Datasheet" "~" 
+      (at 190.5 104.14 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 190.5 104.14 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "2" 
+      (uuid "fd440afd-0858-4899-8033-2dcc8cc02af5")) 
+    (pin "1" 
+      (uuid "f6909765-55e9-42c6-a7a8-00244c907d69")) 
+    (instances 
+      (project "NES-SW-02_compat" 
+        (path "/0ef88f61-c4e5-4c6a-8291-ccc9391c1d8a" 
+          (reference "POWER_LED1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Switch:SW_SPST") 
+    (at 173.99 67.31 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "1fd61fc8-0737-44e8-9336-cc03aac8a5a2") 
+    (property "Reference" "POWER_SW1" 
+      (at 173.99 60.96 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "SW_SPST" 
+      (at 173.99 63.5 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "NES_Footprints:NES-SW-02 Switch" 
+      (at 173.99 67.31 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Datasheet" "~" 
+      (at 173.99 67.31 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 173.99 67.31 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "b72c5f01-fa65-462c-bfc3-1d134ce14d6b")) 
+    (pin "2" 
+      (uuid "b0ac462c-1491-46c6-856b-81209baa7e04")) 
+    (instances 
+      (project "NES-SW-02_compat" 
+        (path "/0ef88f61-c4e5-4c6a-8291-ccc9391c1d8a" 
+          (reference "POWER_SW1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Connector_Generic:Conn_01x05") 
+    (at 218.44 77.47 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "9bf1e473-41c7-48ea-979a-8176c88aab73") 
+    (property "Reference" "J1" 
+      (at 220.98 76.2 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "Conn_01x05" 
+      (at 220.98 78.73999999999999 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "NES_Footprints:NES-SW-02 Connector" 
+      (at 218.44 77.47 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Datasheet" "~" 
+      (at 218.44 77.47 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 218.44 77.47 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "2" 
+      (uuid "383dfbe9-023a-4629-bf5f-de5f2062aed7")) 
+    (pin "1" 
+      (uuid "d3b670f5-8fdc-4450-b48e-0925a4235956")) 
+    (pin "5" 
+      (uuid "80a10fca-09ee-4013-ae4d-95900dcbdde4")) 
+    (pin "3" 
+      (uuid "ef3fb996-7985-4bb0-953c-8ae9a817b450")) 
+    (pin "4" 
+      (uuid "511feb5e-7b8b-4357-a4f5-18af44140899")) 
+    (instances 
+      (project "NES-SW-02_compat" 
+        (path "/0ef88f61-c4e5-4c6a-8291-ccc9391c1d8a" 
+          (reference "J1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Switch:SW_SPST") 
+    (at 135.89 69.84999999999999 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "d0078924-15b5-44e4-a052-aa550b629510") 
+    (property "Reference" "RESET_SW1" 
+      (at 135.89 63.5 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "SW_SPST" 
+      (at 135.89 66.04000000000001 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "NES_Footprints:NES-SW-02 Switch" 
+      (at 135.89 69.84999999999999 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Datasheet" "~" 
+      (at 135.89 69.84999999999999 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 135.89 69.84999999999999 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "2" 
+      (uuid "d41c886d-6a74-46b2-b447-e2994f56ea18")) 
+    (pin "1" 
+      (uuid "a8bfba45-8f55-404d-817e-b2ef07477482")) 
+    (instances 
+      (project "NES-SW-02_compat" 
+        (path "/0ef88f61-c4e5-4c6a-8291-ccc9391c1d8a" 
+          (reference "RESET_SW1") 
+          (unit 1))))) 
+  (sheet_instances 
+    (path "/" 
+      (page "1"))) 
+  (embedded_fonts no))

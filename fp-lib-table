@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NES_Footprints")(type "KiCad")(uri "${KIPRJMOD}/NES_Footprints.pretty")(options "")(descr ""))
+)
