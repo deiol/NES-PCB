@@ -1,5 +1,5 @@
 [![Purchase on Tindie - Static Badge](https://img.shields.io/badge/tindie-purchase%20PCB-17AEB9?logo=tindie)](https://www.tindie.com/products/deiol/nes-replacement-powerreset-switch-pcb/)
-[![Purchase on Ko-fi - Static Badge](https://img.shields.io/badge/tindie-purchase%20PCB-FF6433?logo=kofi)](https://ko-fi.com/s/01c29a42ff)
+[![Purchase on Ko-fi - Static Badge](https://img.shields.io/badge/ko--fi-purchase%20PCB-FF6433?logo=kofi)](https://ko-fi.com/s/01c29a42ff)
 ![KiCad 9 - Static Badge](https://img.shields.io/badge/KiCad-v9-314CB0)
 
 # NES-PCB
