@@ -1,3 +1,7 @@
+[![Purchase on Tindie - Static Badge](https://img.shields.io/badge/tindie-purchase%20PCB-17AEB9?logo=tindie)](https://www.tindie.com/products/deiol/nes-replacement-powerreset-switch-pcb/)
+[![Purchase on Ko-fi - Static Badge](https://img.shields.io/badge/tindie-purchase%20PCB-FF6433?logo=kofi)](https://ko-fi.com/s/01c29a42ff)
+![KiCad 9 - Static Badge](https://img.shields.io/badge/KiCad-v9-314CB0)
+
 # NES-PCB
 Based on a request and discussion in this [r/NES thread](https://www.reddit.com/r/nes/comments/1rh8xvy/looking_for_replacement_powereject_boards/), I created a drop-in replacement for the Power/Reset PCB from the front-loader Nintendo Entertainment System.
 
@@ -19,10 +23,14 @@ Additionally, I used the same power switch footprint for the reset switch. This 
 # Board Production
 Board thickness is 1.6mm. [Gerber and drill files](https://github.com/deiol/NES-PCB/tree/main/Gerbers) are included in case they are helpful to anyone. They were created for production at JLCPCB following their gudiance on [generating Gerber and Drill files in KiCAD 9](https://jlcpcb.com/help/article/how-to-generate-gerber-and-drill-files-in-kicad-9). I only reference JLCPCB because I have used them in the past. You can of course have the board produced by a different manufacturer, some aspects of the board may need to be tweaked based on *their* requirements.
 
-If you don't want to go through the trouble of getting boards manufactured, I may offer boards for sale. If/when I do, I will update this repo with a link.
+If you don't want to go through the trouble of getting boards manufactured, they are available for sale on [Tindie](https://www.tindie.com/products/deiol/nes-replacement-powerreset-switch-pcb/) or [Ko-fi](https://ko-fi.com/s/01c29a42ff)
 
 # Disclaimer
 I am not an electrical engineer, just a hobbyist. I couldn't find datasheets for any of the components, so the footprints were created from "scratch" using measurements taken with rulers and calipers. Similarly, the boards were measured with rulers and calipers and also compared against scans I took. Everything in this repo is offered as-is, use at your own risk.
 
-**2026-03-19** - Currently the board design is untested, I plan on ordering some prototypes and will update this repo after I see how they turn out. I will try to make any adjustments to the files as needed.
+**2026-06-15** - I am currently working on another version of the board that will support aftermarket switches. I was hoping to be able to design a single board that would support both native and aftermarket switches. However, due to the way the native switches and board mount to the NES shell, this is not likely to be possible.
+
+**2026-05-07** - The board has been tested by multiple parties with no issues reported! Boards are available for sale on [Tindie](https://www.tindie.com/products/deiol/nes-replacement-powerreset-switch-pcb/) or [Ko-fi](https://ko-fi.com/s/01c29a42ff). 
+
+**2026-03-19** - ~~Currently the board design is untested,~~ I plan on ordering some prototypes and will update this repo after I see how they turn out. I will try to make any adjustments to the files as needed.
 
